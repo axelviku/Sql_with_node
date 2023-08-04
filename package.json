@@ -1,0 +1,23 @@
+{
+  "name": "desktrack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Vikrant",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.5",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.32.0",
+    "socket.io": "^4.7.1"
+  }
+}
